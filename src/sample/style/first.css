@@ -1,0 +1,76 @@
+
+.dark-gray-theme {
+   -fx-background-color: rgb(58, 61, 73);
+}
+/*深色主题*/
+.dark-theme {
+   -fx-background-color: rgb(40, 43, 51);
+}
+
+/*绿色主题*/
+.green-theme {
+   -fx-border-radius: 50px;
+   -fx-background-radius: 50px;
+}
+
+/*灰色主题*/
+.gray-theme {
+   -fx-background-color: rgb(210, 210, 210);
+   -fx-text-fill: #fff;
+}
+.logo{
+       -fx-background-position: center center;
+       -fx-background-repeat: no-repeat;
+       -fx-background-size: contain, auto;
+}
+.refresh{
+   -fx-background-image:url('./refresh.png');
+
+}
+.store{
+   -fx-background-image:url('./store.png');
+}
+.goto{
+   -fx-background-image:url('./goto.png');
+}
+.left{
+   -fx-background-image:url('./left.png');
+}
+.right{
+   -fx-background-image:url('./right.png');
+}
+.home{
+   -fx-background-image:url('./home.png');
+}
+.download{
+   -fx-background-image:url('./download.png');
+}
+.email{
+   -fx-background-image:url('./email.png');
+}
+.bookmark{
+   -fx-background-image:url('./bookmark.png');
+}
+.loading{
+   -fx-background-image:url('./loading.png');
+}
+/*输入框样式*/
+.input-group {
+   /*对齐方式*/
+   -fx-text-alignment: left;
+   /*内容显示方式*/
+   -fx-content-display: inline-block;
+   /*合适高度*/
+   -fx-pref-height: 30px;
+   /*边框色*/
+   -fx-border-color: rgb(230, 230, 230);
+   /*提示文字颜色*/
+   -fx-prompt-text-fill: rgb(162, 162, 162);
+   /*输入文字颜色*/
+   -fx-text-fill: rgb(110, 110, 110);
+   /*边框圆角*/
+   /*内边距*/
+   -fx-padding: 5 5 5 5;
+   /*鼠标形状*/
+
+}

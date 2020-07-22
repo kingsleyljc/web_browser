@@ -1,0 +1,6 @@
+url:https://www.baidu.com/
+name:百度一下，你就知道
+url:https://www.sina.com.cn/
+name:新浪首页
+url:https://weixin.qq.com/
+name:微信，是一个生活方式

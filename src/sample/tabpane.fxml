@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane fx:id="tab_pane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TabController">
+    <tabs>
+<!--        <Tab fx:id="tab1" text="主页">-->
+<!--            <content>-->
+<!--                <fx:include source="first.fxml" />-->
+<!--            </content>-->
+<!--        </Tab>-->
+
+        <Tab fx:id="tab2" closable="false" onSelectionChanged="#add_tab" text="+">
+            <content>
+                <fx:include source="first.fxml" />
+            </content>
+        </Tab>
+    </tabs>
+
+</TabPane>
